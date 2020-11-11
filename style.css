@@ -1,0 +1,245 @@
+/* CORPO */
+
+body {
+    color:white;
+}
+
+h1, h2, h3 {
+    font-family: fantasy;
+    color: black;
+}
+
+.botao {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 10px 30px;
+        background-color: limegreen;
+        font-size: .9em;
+        border-radius: 3px;
+}
+
+.carousel-inner .carousel-item  img {
+
+    margin: auto;
+    
+    }
+/* Navegação */
+
+nav {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: forestgreen;
+}
+
+nav > a {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    color: white;
+
+}
+
+nav ul li {
+
+    text-align: center;
+    width: 100%;
+
+}
+
+
+nav ul li a {
+
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*Cabeçalho*/
+
+header {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/grass.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+
+}
+
+header h1{
+
+    color:#ffffff;
+}
+
+header p{
+    margin-bottom: 2em;
+}
+
+#inicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px 10px 20px 20px;
+        color: #ffffff;
+}
+
+#inicio h1 {
+    color: #ffffff;
+}
+
+#inicio p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+#inicio .botao {
+    background-color: #f1f1f1;
+    color: #1c1c1c;
+}
+
+#projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+#projetos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+#investidores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#investidores h2{
+    margin-bottom: 20px;
+}
+
+#investidores img {
+    width: 100%;
+}
+
+#faleconosco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#faleconosco h2 {
+    color: #000000;
+}
+
+/*rodapé*/
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: mediumseagreen;
+    color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+nav {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul {
+    flex-direction: row;
+    width: 70%;
+}
+
+/*Cabeçalho*/
+
+header {
+    height: 600px;
+    height: 60vh;
+    justify-content: center;
+}
+
+/*sobre*/
+
+#sobrenos {
+    height: 500px;
+    height: 60vh;
+    justify-content: center;
+    min-height: 300px;
+}
+
+#projetos {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: lightgreen;
+}
+
+#projetos h2 {
+    text-align: center;
+    width: 100%;
+}
+
+#projetos h3 {
+    text-align: center;
+    width: 100%;
+}
+
+#projetos div {
+    flex-grow: 1;
+    flex-basis: 150px;
+    padding: 0 10px;
+
+}
+
+#investidores h2 {
+    width: 100%;
+    text-align: center;
+}
+
+#investidores img {
+    width: 33.3333333%;
+}
+
+#sobrenos {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 550px;
+    margin: 0 auto;
+    background-color: forestgreen;
+}
+
+#sobrenos h2, #sobrenos p p p p {
+
+    width: 100%;
+}
